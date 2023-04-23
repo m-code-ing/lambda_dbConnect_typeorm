@@ -3,10 +3,12 @@
       "target": "ES2018",
       "module": "commonjs",
       "outDir": "dist",
-      "strict": true,
-      "esModuleInterop": true
+      "strict": false,
+      "esModuleInterop": true,
+      "emitDecoratorMetadata":true,
+      "experimentalDecorators": true,
     },
     "files": ["src/handler.ts"],
-    "exclude": ["node_modules"]
+    "exclude": ["node_modules"],
   }
   

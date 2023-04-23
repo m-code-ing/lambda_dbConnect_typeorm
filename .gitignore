@@ -1,2 +1,26 @@
 node_modules
 *.zip
+dist
+dist*# Node.js / TypeORM
+node_modules/
+/dist/
+/*.log
+
+# TypeORM
+# Auto-generated migrations
+/src/database/migrations/*.ts
+
+# Compiled output
+/src/database/migrations/*.js
+/src/database/migrations/*.js.map
+
+# End-to-end testing
+/e2e/
+
+# Misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
